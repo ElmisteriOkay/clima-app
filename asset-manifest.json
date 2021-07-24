@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clima-app/static/css/main.7ce843e4.chunk.css",
+    "main.js": "/clima-app/static/js/main.eaacafd3.chunk.js",
+    "main.js.map": "/clima-app/static/js/main.eaacafd3.chunk.js.map",
+    "runtime-main.js": "/clima-app/static/js/runtime-main.761349cd.js",
+    "runtime-main.js.map": "/clima-app/static/js/runtime-main.761349cd.js.map",
+    "static/js/2.f6402436.chunk.js": "/clima-app/static/js/2.f6402436.chunk.js",
+    "static/js/2.f6402436.chunk.js.map": "/clima-app/static/js/2.f6402436.chunk.js.map",
+    "index.html": "/clima-app/index.html",
+    "precache-manifest.d8df0ce45ccef161a21dcb981b46d707.js": "/clima-app/precache-manifest.d8df0ce45ccef161a21dcb981b46d707.js",
+    "service-worker.js": "/clima-app/service-worker.js",
+    "static/css/main.7ce843e4.chunk.css.map": "/clima-app/static/css/main.7ce843e4.chunk.css.map",
+    "static/js/2.f6402436.chunk.js.LICENSE.txt": "/clima-app/static/js/2.f6402436.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/clima-app/static/media/warm-bg.635ed87d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.761349cd.js",
+    "static/js/2.f6402436.chunk.js",
+    "static/css/main.7ce843e4.chunk.css",
+    "static/js/main.eaacafd3.chunk.js"
+  ]
+}
