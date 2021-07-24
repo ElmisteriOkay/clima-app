@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cf8d5a825ff27cf9f7e9161d006eaeb",
+    "revision": "1b41bf32b3152ef47839212a1036e53d",
     "url": "/clima-app/index.html"
   },
   {
-    "revision": "d7c9d450c8da4077306a",
-    "url": "/clima-app/static/css/main.7ce843e4.chunk.css"
+    "revision": "e834b4ad89853b5d6833",
+    "url": "/clima-app/static/css/main.a096347d.chunk.css"
   },
   {
-    "revision": "ac6b69b194f9e8696bf0",
-    "url": "/clima-app/static/js/2.f6402436.chunk.js"
+    "revision": "91ef32ea98a7ee18746a",
+    "url": "/clima-app/static/js/2.c2bd5cff.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/clima-app/static/js/2.f6402436.chunk.js.LICENSE.txt"
+    "url": "/clima-app/static/js/2.c2bd5cff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7c9d450c8da4077306a",
-    "url": "/clima-app/static/js/main.eaacafd3.chunk.js"
+    "revision": "e834b4ad89853b5d6833",
+    "url": "/clima-app/static/js/main.dea55019.chunk.js"
   },
   {
     "revision": "8130b3243f664ea6ace1",
