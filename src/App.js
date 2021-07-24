@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Data from './components/Data';
+import Search from './components/Search';
 
 const api = {
   key: "bedfd8f1fa72e543d6e7f6a9f82319dc",
@@ -7,19 +8,15 @@ const api = {
 }
 
 function App() {
-  const [query, setQuery] = useState('London');
   const [weather, setWeather] = useState({});
 
-  const search = e => {
-    if(e.key === "Enter"){
-      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-      .then(res => res.json())
-      .then(result => {
-          setWeather(result);
-          setQuery('');
-        }
-      )
-    }
+  const search = query => {
+    fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+    .then(res => res.json())
+    .then(result => {
+        setWeather(result);
+      }
+    )
   }
 
   return (
@@ -31,16 +28,8 @@ function App() {
       }
         >
       <main>
-        <div className="search-box">
-          <input 
-            type="text" 
-            className="search-bar" 
-            placeholder="Search..." 
-            onChange={e => setQuery(e.target.value)}
-            value={query}
-            onKeyPress={search}
-          />
-        </div>
+        <h2>Clima Mundial</h2>
+        <Search search={search}/>
 
         <Data weather={weather}/>
         
