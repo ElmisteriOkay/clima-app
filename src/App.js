@@ -27,7 +27,7 @@ function App() {
         : 'app') : 'app'
       }
         >
-      <main>
+      <main class="principal">
         <h2>Clima Mundial</h2>
         <Search search={search}/>
 
