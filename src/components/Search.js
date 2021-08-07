@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { FcSearch } from 'react-icons/fc';
 
 function Search({search}) {
-	const [query, setQuery] = useState('London');
+	const [query, setQuery] = useState('Bogota');
 
 	const keyPre = e => {
 		if(e.key === "Enter"){
